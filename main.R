@@ -1,6 +1,3 @@
-setwd('/home/sirlibzy/KAREN/final analysis/')
-
-
 # 0. Install and Load Libraries
 
 # Load libraries
@@ -24,21 +21,19 @@ library(apeglm)
 
 # --- Configuration ---
 base_dir <- getwd()
-
 file_paths <- c(
-  "GSE52194" = "GSE52194.tsv",
-  "GSE63582" = "GSE63582.tsv",
-  "GSE142731" = "GSE142731.tsv",
-  "GSE171957" = "GSE171957.tsv",
-  "GSE206998" = "GSE206998.tsv"
+  "GSE52194" = "~/PROJECTS/GENE EXPRESSION/TNBC-Omics/data/GSE52194.tsv",
+  "GSE63582" = "~/PROJECTS/GENE EXPRESSION/TNBC-Omics/data/GSE63582.tsv",
+  "GSE142731" = "~/PROJECTS/GENE EXPRESSION/TNBC-Omics/data/GSE142731.tsv",
+  "GSE171957" = "~/PROJECTS/GENE EXPRESSION/TNBC-Omics/data/GSE171957.tsv",
+  "GSE206998" = "~/PROJECTS/GENE EXPRESSION/TNBC-Omics/data/GSE206998.tsv"
 )
-
 metadata_files <- c(
-  "GSE52194" = "GSE52194_metadata.tsv",
-  "GSE63582" = "GSE63582_metadata.tsv",
-  "GSE142731" = "GSE142731_metadata.tsv",
-  "GSE171957" = "GSE171957_metadata.tsv",
-  "GSE206998" = "GSE206998_metadata.tsv"
+  "GSE52194" = "~/PROJECTS/GENE EXPRESSION/TNBC-Omics/data/GSE52194_metadata.tsv",
+  "GSE63582" = "~/PROJECTS/GENE EXPRESSION/TNBC-Omics/data/GSE63582_metadata.tsv",
+  "GSE142731" = "~/PROJECTS/GENE EXPRESSION/TNBC-Omics/data/GSE142731_metadata.tsv",
+  "GSE171957" = "~/PROJECTS/GENE EXPRESSION/TNBC-Omics/data/GSE171957_metadata.tsv",
+  "GSE206998" = "~/PROJECTS/GENE EXPRESSION/TNBC-Omics/data/GSE206998_metadata.tsv"
 )
 
 output_dir <- file.path(base_dir, "analysis_results_COMBINED")
