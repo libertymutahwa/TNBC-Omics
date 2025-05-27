@@ -1,0 +1,17 @@
+DESeq2
+pheatmap
+ggplot2
+RColorBrewer
+EnhancedVolcano
+STRINGdb
+AnnotationDbi
+org.Hs.eg.db
+vsn
+dplyr
+tibble
+readr
+grid
+clusterProfiler
+enrichplot
+stringr
+apeglm

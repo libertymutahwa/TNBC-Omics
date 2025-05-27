@@ -1,0 +1,5 @@
+data/
+analysis_results_COMBINED/
+*.tsv
+*.csv
+*.png
