@@ -1,7 +1,7 @@
 # TNBC-Omics: Differential Gene Expression Analysis of Triple-Negative Breast Cancer Using DESeq2
 
 ## 📖 Overview
-**TNBC-Omics** is a bioinformatics pipeline for analyzing differential gene expression (DGE) in Triple-Negative Breast Cancer (TNBC) compared to normal tissue samples. This project integrates five publicly available GEO datasets (GSE52194, GSE63582, GSE142731, GSE171957, GSE206998) to identify differentially expressed genes (DEGs) using the DESeq2 package in R. It employs robust data preprocessing, SQL-like metadata management, and advanced visualizations (e.g., volcano plots, heatmaps, PCA) to uncover molecular signatures of TNBC. Additionally, it performs protein-protein interaction (PPI) network analysis using STRINGdb and Gene Ontology (GO) and KEGG pathway enrichment to provide biological insights into TNBC mechanisms.
+**TNBC-Omics** is a bioinformatics pipeline for analyzing differential gene expression (DGE) in Triple-Negative Breast Cancer (TNBC) compared to normal tissue samples. This project integrates three publicly available GEO datasets (GSE143334, GSE161922, GSE206338) to identify differentially expressed genes (DEGs) using the DESeq2 package in R. It employs robust data preprocessing, SQL-like metadata management, and advanced visualizations (e.g., volcano plots, heatmaps, PCA) to uncover molecular signatures of TNBC. Additionally, it performs protein-protein interaction (PPI) network analysis using STRINGdb and Gene Ontology (GO) and KEGG pathway enrichment to provide biological insights into TNBC mechanisms.
 
 ### Key Features
 - **Multi-Dataset Integration**: Combines five GEO datasets for robust TNBC vs. normal DGE analysis.
